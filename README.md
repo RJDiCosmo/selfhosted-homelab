@@ -243,4 +243,4 @@ Generated files are not fetched over MCP. The tool result contains an `image_url
 - Gateway logs one line per request. A denied token is `DENY`, a limit is `LIMIT`, a success is `OK`.
 - `stop_model` on image-api stops ComfyUI. `stop_model` on music-api stops whichever ACE-Step container is running, and the studio UI. Neither stops the other's model.
 - The ComfyUI, ACE-Step, and Bible-database build steps are not in this repository. `music-api` will raise if an XL container it was asked to start does not exist.
-- License: [MIT](LICENSE), copyright Richard Di Cosmo, 2026.
+- License: [MIT](LICENSE), copyright Richard DiCosmo, 2026.
